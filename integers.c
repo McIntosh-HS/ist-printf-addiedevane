@@ -3,10 +3,6 @@
 int main()
 {
 	int a = 10;
-	float f = 1.23;
-	char c = '2';
-
-	// Format specifiers are placeholders for variable data	printf
 	// printf("a displayed as base 10 integer: %i\n", a);
 	// printf("a displayed as base 8 integer: %o\n", a);
 	// printf("a displayed as base 16 integer: %x\n", a);
