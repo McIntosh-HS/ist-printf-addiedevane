@@ -6,6 +6,6 @@ int main() {
 	printf("How much are your groceries? ");
 	scanf("%f", &subtotal);
 	printf("The tax rate is: %.2f\n", tax);
-	printf("The final total is: %.2f\n", subtotal + subtotal+tax);
+	printf("The final total is: %.2f\n", subtotal + subtotal*tax);
 	return 0;
 }
